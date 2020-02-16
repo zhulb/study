@@ -1,0 +1,1 @@
+>package.log mvn package -Dmaven.test.skip=true

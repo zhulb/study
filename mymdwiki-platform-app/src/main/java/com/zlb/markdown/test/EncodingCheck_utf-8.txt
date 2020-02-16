@@ -1,0 +1,24 @@
+﻿package com.zlb.markdown.test;
+
+import java.io.File;
+
+import info.monitorenter.cpdetector.io.ASCIIDetector;
+import info.monitorenter.cpdetector.io.CodepageDetectorProxy;
+import info.monitorenter.cpdetector.io.UnicodeDetector;
+
+public class CopyOfEncodingCheck {
+	private static CopyOfEncodingCheck encodingCheck=null;
+	public static CopyOfEncodingCheck getInstance(){
+		if(encodingCheck==null){
+			encodingCheck=new CopyOfEncodingCheck();
+		}
+		return encodingCheck;
+	}
+	public static void main(String[] args) {
+		CodepageDetectorProxy codepageDetectorProxy=CodepageDetectorProxy.getInstance();
+		codepageDetectorProxy.add(ASCIIDetector.getInstance());
+		codepageDetectorProxy.add(UnicodeDetector.getInstance());
+		File file=new File(CopyOfEncodingCheck.getInstance().getClass().getClassLoader().getResource("/com/zlb/markdown/test/EncodingCheck.java").toString());
+		System.out.println(file.getAbsolutePath());
+	}
+}

@@ -1,0 +1,221 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] study-platform-app
+[INFO] mymdwiki-web
+[INFO] mymdwiki-package
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building study-platform-app 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mymdwiki-platform-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mymdwiki-platform-app ---
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom
+Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-api/1.8.1/plexus-compiler-api-1.8.1.pom
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-api/1.8.1/plexus-compiler-api-1.8.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler/1.8.1/plexus-compiler-1.8.1.pom
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler/1.8.1/plexus-compiler-1.8.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-manager/1.8.1/plexus-compiler-manager-1.8.1.pom
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-manager/1.8.1/plexus-compiler-manager-1.8.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-javac/1.8.1/plexus-compiler-javac-1.8.1.pom
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-javac/1.8.1/plexus-compiler-javac-1.8.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compilers/1.8.1/plexus-compilers-1.8.1.pom
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compilers/1.8.1/plexus-compilers-1.8.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-api/1.8.1/plexus-compiler-api-1.8.1.jar
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-manager/1.8.1/plexus-compiler-manager-1.8.1.jar
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-javac/1.8.1/plexus-compiler-javac-1.8.1.jar
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-api/1.8.1/plexus-compiler-api-1.8.1.jar (0 B at 0.0 KB/sec)
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-manager/1.8.1/plexus-compiler-manager-1.8.1.jar (0 B at 0.0 KB/sec)
+Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-compiler-javac/1.8.1/plexus-compiler-javac-1.8.1.jar (0 B at 0.0 KB/sec)
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mymdwiki-platform-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-platform-app\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mymdwiki-platform-app ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mymdwiki-platform-app ---
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
+Downloaded: http://repository.openmindonline.it/org/apache/maven/maven/2.0.9/maven-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-parent/8/maven-parent-8.pom
+Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-parent/8/maven-parent-8.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/apache/4/apache-4.pom
+Downloaded: http://repository.openmindonline.it/org/apache/apache/4/apache-4.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.pom
+870 B   2 KB           Downloaded: http://repository.openmindonline.it/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.pom (2 KB at 2.1 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.pom
+2 KB   2 KB          Downloaded: http://repository.openmindonline.it/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.pom (2 KB at 2.4 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/surefire/maven-surefire-common/2.7.2/maven-surefire-common-2.7.2.pom
+839 B   4 KB    4 KB          Downloaded: http://repository.openmindonline.it/org/apache/maven/surefire/maven-surefire-common/2.7.2/maven-surefire-common-2.7.2.pom (4 KB at 5.2 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/reporting/maven-reporting/2.0.9/maven-reporting-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/reporting/maven-reporting/2.0.9/maven-reporting-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/shared/maven-shared-components/12/maven-shared-components-12.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/shared/maven-shared-components/12/maven-shared-components-12.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-parent/13/maven-parent-13.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-parent/13/maven-parent-13.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/apache/6/apache-6.pom
+       Downloaded: http://repository.openmindonline.it/org/apache/apache/6/apache-6.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.pom
+       Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.jar
+Downloading: http://repository.openmindonline.it/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.jar
+Downloading: http://repository.openmindonline.it/org/apache/maven/surefire/maven-surefire-common/2.7.2/maven-surefire-common-2.7.2.jar
+Downloading: http://repository.openmindonline.it/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar
+Downloading: http://repository.openmindonline.it/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.jar
+4 KB   8 KB   12 KB   13 KB   17 KB   21 KB   25 KB   29 KB   33 KB           Downloaded: http://repository.openmindonline.it/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar (0 B at 0.0 KB/sec)
+35 KB           Downloaded: http://repository.openmindonline.it/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.jar (0 B at 0.0 KB/sec)
+4 KB   35 KB   4 KB   4 KB   35 KB   4 KB   8 KB   35 KB   8 KB   8 KB   35 KB   8 KB   12 KB   35 KB   12 KB   12 KB   35 KB   12 KB   13 KB   35 KB   13 KB   13 KB   35 KB   13 KB   13 KB   39 KB   13 KB   13 KB   43 KB   13 KB   13 KB   47 KB   13 KB   13 KB   51 KB   13 KB   13 KB   55 KB   13 KB   13 KB   59 KB   13 KB   13 KB   63 KB   13 KB   13 KB   67 KB   13 KB   13 KB   70 KB   13 KB   13 KB   74 KB   13 KB   13 KB   78 KB   13 KB   13 KB   82 KB   13 KB   13 KB   86 KB   13 KB   13 KB   86 KB   17 KB   13 KB   86 KB   21 KB   13 KB   86 KB   25 KB   13 KB   86 KB   27 KB   13 KB   86 KB   27 KB   17 KB   86 KB   31 KB   17 KB   86 KB   31 KB   21 KB   86 KB   35 KB   21 KB   86 KB   35 KB   25 KB   86 KB   35 KB   29 KB   86 KB   39 KB   29 KB   86 KB   39 KB   32 KB   86 KB   41 KB   32 KB   86 KB   41 KB   32 KB   90 KB   41 KB   32 KB   94 KB   41 KB   32 KB   98 KB   41 KB   32 KB   102 KB   41 KB   32 KB   106 KB   41 KB   32 KB   110 KB   41 KB   32 KB   114 KB   41 KB   32 KB   118 KB   41 KB   32 KB   119 KB   45 KB   32 KB   119 KB   49 KB   32 KB   119 KB   51 KB   32 KB   119 KB                            Downloaded: http://repository.openmindonline.it/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.jar (32 KB at 18.1 KB/sec)
+                         Downloaded: http://repository.openmindonline.it/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.jar (119 KB at 60.0 KB/sec)
+55 KB                    59 KB   60 KB           Downloaded: http://repository.openmindonline.it/org/apache/maven/surefire/maven-surefire-common/2.7.2/maven-surefire-common-2.7.2.jar (60 KB at 23.9 KB/sec)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ mymdwiki-platform-app ---
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.pom
+        Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-components/1.1.17/plexus-components-1.1.17.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-components/1.1.17/plexus-components-1.1.17.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+        Downloaded: http://repository.openmindonline.it/commons-lang/commons-lang/2.1/commons-lang-2.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.jar
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.jar
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.jar
+Downloading: http://repository.openmindonline.it/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.jar (0 B at 0.0 KB/sec)
+        Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.jar (0 B at 0.0 KB/sec)
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.jar (0 B at 0.0 KB/sec)
+        Downloaded: http://repository.openmindonline.it/commons-lang/commons-lang/2.1/commons-lang-2.1.jar (0 B at 0.0 KB/sec)
+[INFO] Building jar: E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-platform-app\target\mymdwiki-platform-app-0.0.1-SNAPSHOT.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mymdwiki-web 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mymdwiki-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mymdwiki-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mymdwiki-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-web\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mymdwiki-web ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mymdwiki-web ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ mymdwiki-web ---
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-archiver/1.2/plexus-archiver-1.2.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-archiver/1.2/plexus-archiver-1.2.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-io/1.0.1/plexus-io-1.0.1.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-io/1.0.1/plexus-io-1.0.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
+        Downloaded: http://repository.openmindonline.it/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
+        Downloaded: http://repository.openmindonline.it/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
+        Downloaded: http://repository.openmindonline.it/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom
+        Downloaded: http://repository.openmindonline.it/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+        Downloaded: http://repository.openmindonline.it/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/maven-parent/9/maven-parent-9.pom
+        Downloaded: http://repository.openmindonline.it/org/apache/maven/maven-parent/9/maven-parent-9.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-archiver/1.2/plexus-archiver-1.2.jar
+Downloading: http://repository.openmindonline.it/org/codehaus/plexus/plexus-io/1.0.1/plexus-io-1.0.1.jar
+Downloading: http://repository.openmindonline.it/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar
+Downloading: http://repository.openmindonline.it/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
+Downloading: http://repository.openmindonline.it/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-archiver/1.2/plexus-archiver-1.2.jar (0 B at 0.0 KB/sec)
+        Downloaded: http://repository.openmindonline.it/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar (0 B at 0.0 KB/sec)
+                        Downloaded: http://repository.openmindonline.it/org/codehaus/plexus/plexus-io/1.0.1/plexus-io-1.0.1.jar (0 B at 0.0 KB/sec)
+Downloaded: http://repository.openmindonline.it/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar (0 B at 0.0 KB/sec)
+Downloaded: http://repository.openmindonline.it/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar (0 B at 0.0 KB/sec)
+[INFO] Packaging webapp
+[INFO] Assembling webapp [mymdwiki-web] in [E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-web\target\mymdwiki]
+[INFO] Processing war project
+[INFO] Copying webapp resources [E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-web\src\main\webapp]
+[INFO] Webapp assembled in [2807 msecs]
+[INFO] Building war: E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-web\target\mymdwiki.war
+[WARNING] Warning: selected war files include a WEB-INF/web.xml which will be ignored 
+(webxml attribute is missing from war task, or ignoreWebxml attribute is specified as 'true')
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mymdwiki-package 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] study-platform-app ................................ SUCCESS [26.152s]
+[INFO] mymdwiki-web ...................................... SUCCESS [11.232s]
+[INFO] mymdwiki-package .................................. SUCCESS [0.001s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 37.542s
+[INFO] Finished at: Fri Feb 14 10:52:56 CST 2020
+[INFO] Final Memory: 8M/123M
+[INFO] ------------------------------------------------------------------------

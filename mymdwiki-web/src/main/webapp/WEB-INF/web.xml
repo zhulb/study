@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name>Archetype Created Web Application</display-name>
+	<listener>
+		<listener-class>com.zlb.markdown.AutoRun</listener-class>
+	</listener>
+	<servlet>
+		<servlet-name>DataManagerServlet</servlet-name>
+		<servlet-class>com.zlb.markdown.data.servlet.DataManagerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetDataServlet</servlet-name>
+		<servlet-class>com.zlb.markdown.servlet.GetDataServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateIndexMarkdown</servlet-name>
+		<servlet-class>com.zlb.markdown.servlet.UpdateIndexMarkdown</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ToolServlet</servlet-name>
+		<servlet-class>com.zlb.markdown.tool.servlet.ToolServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DataRefreshHeadInfoServlet</servlet-name>
+		<servlet-class>com.zlb.markdown.data.servlet.RefreshHeadInfoServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetDataServlet</servlet-name>
+		<url-pattern>/md/getData/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateIndexMarkdown</servlet-name>
+		<url-pattern>/md/updateIndexMd.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DataRefreshHeadInfoServlet</servlet-name>
+		<url-pattern>/md/data/refreshHeadInfo.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DataManagerServlet</servlet-name>
+		<url-pattern>/md/mdhead.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ToolServlet</servlet-name>
+		<url-pattern>/tools/servlet/*</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

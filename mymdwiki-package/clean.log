@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] study-platform-app
+[INFO] mymdwiki-web
+[INFO] mymdwiki-package
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building study-platform-app 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repository.openmindonline.it/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.pom
+Downloaded: http://repository.openmindonline.it/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.pom (0 B at 0.0 KB/sec)
+Downloading: http://repository.openmindonline.it/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.jar
+Downloaded: http://repository.openmindonline.it/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.jar (0 B at 0.0 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mymdwiki-platform-app ---
+[INFO] Deleting E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-platform-app\target
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mymdwiki-web 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mymdwiki-web ---
+[INFO] Deleting E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-web\target
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mymdwiki-package 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mymdwiki-package ---
+[INFO] Deleting E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-package\target
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] study-platform-app ................................ SUCCESS [2.127s]
+[INFO] mymdwiki-web ...................................... SUCCESS [0.140s]
+[INFO] mymdwiki-package .................................. SUCCESS [0.007s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.573s
+[INFO] Finished at: Mon Feb 17 00:25:30 CST 2020
+[INFO] Final Memory: 4M/122M
+[INFO] ------------------------------------------------------------------------

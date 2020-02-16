@@ -1,0 +1,1 @@
+>clean.log mvn clean

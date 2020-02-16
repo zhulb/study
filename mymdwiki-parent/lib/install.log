@@ -1,0 +1,20 @@
+[INFO] Scanning for projects...
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install-file (default-cli) @ standalone-pom ---
+[INFO] Installing E:\Java\Project\zhulb-mymdwiki-web\mymdwiki-parent\lib\cpdetector_1.0.10.jar to E:\Java\lib\m3\info\monitorenter\cpdetector\1.0.10\cpdetector-1.0.10.jar
+[INFO] Installing C:\Users\zhulb\AppData\Local\Temp\mvninstall6076468311037735944.pom to E:\Java\lib\m3\info\monitorenter\cpdetector\1.0.10\cpdetector-1.0.10.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 43.831s
+[INFO] Finished at: Mon Feb 03 15:24:23 CST 2020
+[INFO] Final Memory: 5M/122M
+[INFO] ------------------------------------------------------------------------
